@@ -3,6 +3,25 @@
 *.aar
 *.ap_
 *.aab
+*.iml
+.gradle
+/local.properties
+app/app.iml
+/.idea/caches
+/.idea/libraries
+.idea/*
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.idea/codeStyles/Project.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/codeStyles/codeStyleConfig.xml
 
 # Files for the ART/Dalvik VM
 *.dex
