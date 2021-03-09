@@ -5,4 +5,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="main_color">#1296c6</color>
+    <color name="main_dark_color">#293d58</color>
+    <color name="main_dark_color_light">#5D7698</color>
+    <color name="gray">#CDCDCD</color>
 </resources>
