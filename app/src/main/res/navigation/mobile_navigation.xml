@@ -12,14 +12,26 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_promotions"
         android:name="com.example.salesassist.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:label="@string/title_promotions"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_center"
+        android:name="com.example.salesassist.ui.dashboard.DashboardFragment"
+        android:label="@string/title_center"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_inventory"
+        android:name="com.example.salesassist.ui.dashboard.DashboardFragment"
+        android:label="@string/title_inventory"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_more"
         android:name="com.example.salesassist.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/title_more"
         tools:layout="@layout/fragment_notifications" />
 </navigation>
